@@ -1,8 +1,3 @@
-D'accord ! Voici la version mise à jour du `README.md` qui se concentre uniquement sur l'utilisation du projet, sans mentionner la contribution.
-
-### Nouveau fichier `README.md` :
-
-```markdown
 # Weather API
 
 ## Description
