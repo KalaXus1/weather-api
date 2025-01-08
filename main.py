@@ -5,7 +5,7 @@ from urllib.request import urlopen
 import json
 from lecture_csv import meteo
 
-jeton = '47a8503ffd4fce6772e915c4823da9d20afa33f75701c75bbe4843bf1f25f2d5'
+jeton = 'api_key'
 
 with closing(urlopen(f'https://api.meteo-concept.com/api/location/city?token={jeton}&insee=14327')) as f:
     city = json.loads(f.read())['city']
