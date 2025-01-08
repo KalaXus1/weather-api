@@ -7,10 +7,10 @@ from lecture_csv import meteo
 
 jeton = 'api_key'
 
-with closing(urlopen(f'https://api.meteo-concept.com/api/location/city?token={jeton}&insee=14327')) as f:
+with closing(urlopen(f'https://api.meteo-concept.com/api/location/city?token={jeton}&insee=75056')) as f:
     city = json.loads(f.read())['city']
 
-with closing(urlopen(f'https://api.meteo-concept.com/api/forecast/daily/1?token={jeton}&insee=14327')) as f:
+with closing(urlopen(f'https://api.meteo-concept.com/api/forecast/daily/1?token={jeton}&insee=75056')) as f:
     decoded = json.loads(f.read())
     city, forecast = (decoded[k] for k in ('city', 'forecast'))
 
