@@ -74,6 +74,3 @@ Ce projet est sous la licence **MIT**. Voir le fichier [LICENSE](LICENSE) pour p
 Ce projet est ma première expérience dans la création d'une application météo utilisant une API externe et une interface graphique. Il m'a permis de mettre en pratique mes compétences en Python et en développement d'interfaces avec Tkinter, tout en acquérant une compréhension des services web.
 
 Ce projet fait partie de mes réalisations dans le cadre de ma recherche d'alternance en développement web.
-```
-
-Tu peux maintenant utiliser ce fichier `README.md` dans ton projet. Il se concentre uniquement sur l'utilisation et l'installation du projet sans mentionner la contribution.
